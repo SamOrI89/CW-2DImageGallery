@@ -1,21 +1,79 @@
 ﻿.left-side:hover{
 	-webkit-transition: all 1s ease;
 	-webkit-transform:  rotate(-5deg) scale(1.25, 1.25);
+	-moz-transition: all 1s ease;
+	-moz-transform:  rotate(-5deg) scale(1.25, 1.25);
 }
 
 .center:hover{
 
 	-webkit-transform: ranslateX(20px) scale(1.25, 1.25);
+	-moz-transform: ranslateX(20px) scale(1.25, 1.25);
 	
 }
 
 .right-side:hover{
 	-webkit-transition: all 1s ease;
 	-webkit-transform: rotate(5deg) scale(1.25, 1.25);
+	-moz-transition: all 1s ease;
+	-moz-transform: rotate(5deg) scale(1.25, 1.25);
+}
+
+img{
+	margin: 10px;
 }
 
 
-.wrapper
-{
+#img-gallery{
+	margin: 0 auto;
+	width: 530px;
+}
+
+@media only screen and (min-width: 1141px) {
+	.wrapper
+	{
+		margin: 0 auto;
+		width: 1000px;
+	}
+
+}
+
+@media only screen and (max-width: 1140px) {
+	.wrapper
+	{
+		margin: 0 auto;
+		width: 900px;
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	.wrapper
+	{
+		margin: 0 auto;
+		width: 700px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.wrapper
+	{
+		margin: 0 auto;
+		width: 240px;
+	}
 	
+	#img-gallery{
+		width: 240px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	#img-gallery{
+		width: 240px;
+	}
+	
+	.wrapper
+	{
+		margin: 0 auto;
+		width: 240px;
+	}
 }
