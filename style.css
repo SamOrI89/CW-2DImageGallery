@@ -1,0 +1,19 @@
+﻿.left-side img a{
+	-webkit-transform: rotate(-30deg) scale(1.25, 1.25);
+}
+
+.center img a{
+
+	-webkit-transform: ranslateX(20px) scale(1.25, 1.25);
+	
+}
+
+.right-side img a{
+	-webkit-transform: rotate(30deg) scale(1.25, 1.25);
+}
+
+
+.wrapper
+{
+	
+}
