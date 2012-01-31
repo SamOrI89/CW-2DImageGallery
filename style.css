@@ -1,14 +1,14 @@
-﻿.left-side img a{
+﻿.left-side{
 	-webkit-transform: rotate(-30deg) scale(1.25, 1.25);
 }
 
-.center img a{
+.center{
 
 	-webkit-transform: ranslateX(20px) scale(1.25, 1.25);
 	
 }
 
-.right-side img a{
+.right-side{
 	-webkit-transform: rotate(30deg) scale(1.25, 1.25);
 }
 
