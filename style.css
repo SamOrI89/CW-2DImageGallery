@@ -1,15 +1,17 @@
-﻿.left-side{
-	-webkit-transform: rotate(-30deg) scale(1.25, 1.25);
+﻿.left-side:hover{
+	-webkit-transition: all 1s ease;
+	-webkit-transform:  rotate(-5deg) scale(1.25, 1.25);
 }
 
-.center{
+.center:hover{
 
 	-webkit-transform: ranslateX(20px) scale(1.25, 1.25);
 	
 }
 
-.right-side{
-	-webkit-transform: rotate(30deg) scale(1.25, 1.25);
+.right-side:hover{
+	-webkit-transition: all 1s ease;
+	-webkit-transform: rotate(5deg) scale(1.25, 1.25);
 }
 
 
